@@ -45,3 +45,6 @@
 
 10) <i>Add branch for submodule</i>:
 - <b>git config -f .gitmodules submodule.SUBMODULE_NAME.branch BRANCH_NAME</b>
+
+11) <i>Add summary for submodules</i>:
+- <b>git config status.submodulesummary 1</b>
