@@ -21,12 +21,21 @@
 - <b>git commit -a</b> - for auto add/remove to index
 - <b>git commit -a -m "Message for commit"</b> - commit with message
 
-6) <i>Remove submodule from repository</i>:
+6) <i>Add submodule to repository</i>:
+- <b>git submodule add 'https://github.com/user/repository'</b>
+- <b>git commit -am "Add submodule"</b>
+- <b>git submodule init</b>
+- <b>git submodule update</b>
+
+7) <i>Get repository with submodules</i>:
+- <b>git clone --recursive 'https://github.com/user/repository'</b>
+
+8) <i>Remove submodule from repository</i>:
 - <b>git config -f .gitmodules --remove-section "submodule.submodule_name"</b>
 - <b>git add .gitmodules</b>
 - <b>git submodule deinit -f "submodule_name"</b>
 - <b>git rm --cached "path_to_submodule"</b>
 - <b>git config -f .git/config --remove-section "submodule.submodule_name"</b>
 - <b>rm -rf .git/modules/path_to_submodule</b>
-- <b>git commit -m "Removed submodule <name>"</b>
+- <b>git commit -m "Removed submodule"</b>
 - <b>rm -rf path_to_submodule</b>
