@@ -8,8 +8,9 @@
 - <b>git config credential.helper store</b>
 - use auth command
 
-3) <i>For check remote branches</i>:
+3) <i>For check remote</i>:
 - <b>git remote -v</b>
+- <b>git remote show 'remote'</b>
 
 4) <i>For check current status</i>:
 - <b>git status</b>
@@ -25,6 +26,7 @@
 - <b>git add .gitmodules</b>
 - <b>git submodule deinit -f "submodule_name"</b>
 - <b>git rm --cached "path_to_submodule"</b>
+- <b>git config -f .git/config --remove-section "submodule.submodule_name"</b>
 - <b>rm -rf .git/modules/path_to_submodule</b>
 - <b>git commit -m "Removed submodule <name>"</b>
 - <b>rm -rf path_to_submodule</b>
