@@ -11,7 +11,7 @@
 3) <i>For check remote branches</i>:
 - <b>git remote -v</b>
 
-4) <i> For check current status</i>:
+4) <i>For check current status</i>:
 - <b>git status</b>
 
 5) <i>For commit changes</i>:
