@@ -8,10 +8,10 @@
 - <b>git config credential.helper store</b>
 - use auth command
 
-3) For check remote branches:
+3) <i>For check remote branches</i>:
 - <b>git remote -v</b>
 
-4) For commit changes:
+4) <i>For commit changes</i>:
 - <b>git add <file></b> - for add to index
 - <b>git rm <file></b> - for remove from index
 - <b>git commit -a</b> - for auto add/remove to index
