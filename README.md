@@ -20,7 +20,7 @@
 5) <i>Check current branch</i>:
 - <b>git branch</b>
 
-6) <i>Manage branches</i>:
+6) <i>Switch branches</i>:
 - <b>git checkout BRANCH_NAME</b> - 
 
 ## Submodules
