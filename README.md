@@ -3,17 +3,14 @@
 1) <i>Help command</i>:
 - <b>git --help</b>
 - <b>git --help <command></b>
-
-
+<br>
 2) <i>For save user credentials</i>:
 - <b>git config credential.helper store</b>
 - use auth command
-
-
+<br>
 3) <i>For check remote branches</i>:
 - <b>git remote -v</b>
-
-
+<br>
 4) <i>For commit changes</i>:
 - <b>git add <file></b> - for add to index
 - <b>git rm <file></b> - for remove from index
