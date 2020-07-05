@@ -5,3 +5,4 @@
 [submodule "ImageDownloaderSample"]
 	path = ImageDownloaderSample
 	url = https://github.com/zorin-egor/ImageDownloaderSample.git
+	branch = develop
