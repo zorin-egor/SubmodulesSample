@@ -1,6 +1,3 @@
 [submodule "ChatUiSample"]
 	path = ChatUiSample
 	url = https://github.com/zorin-egor/ChatUiSample.git
-[submodule "ImageDownloaderSample"]
-	path = ImageDownloaderSample
-	url = https://github.com/zorin-egor/ImageDownloaderSample.git
