@@ -48,3 +48,6 @@
 
 11) <i>Add summary for submodules</i>:
 - <b>git config status.submodulesummary 1</b>
+
+12) <i>Foreach for submodules</i>:
+- <b>git submodule foreach 'git command'</b>
