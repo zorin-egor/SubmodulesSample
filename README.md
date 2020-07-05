@@ -25,7 +25,7 @@
 - <b>git submodule add 'https://github.com/user/repository'</b>
 - <b>git commit -am "Add submodule"</b>
 - <b>git submodule init</b>
-- <b>git submodule update</b>
+- <b>git submodule update '--remote SUBMODULE_NAME'</b>
 
 7) <i>Remove submodule from repository</i>:
 - <b>git config -f .gitmodules --remove-section submodule.SUBMODULE_NAME</b>
