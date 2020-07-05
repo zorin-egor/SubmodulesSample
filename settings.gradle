@@ -3,6 +3,3 @@ include ':app'
 
 settings.createProjectDescriptor(settings.rootProject, 'libchat', file('ChatUiSample/libchat/'))
 include ':libchat'
-
-settings.createProjectDescriptor(settings.rootProject, 'libkit', file('AndroidKit/libkit/'))
-include ':libkit'

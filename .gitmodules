@@ -1,6 +1,3 @@
 [submodule "ChatUiSample"]
 	path = ChatUiSample
 	url = https://github.com/zorin-egor/ChatUiSample.git
-[submodule "AndroidKit"]
-	path = AndroidKit
-	url = https://github.com/zorin-egor/AndroidKit.git

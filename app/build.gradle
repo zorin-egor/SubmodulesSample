@@ -27,7 +27,6 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
 
-    implementation project(':libkit')
     implementation project(':libchat')
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
