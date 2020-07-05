@@ -3,3 +3,6 @@ include ':app'
 
 settings.createProjectDescriptor(settings.rootProject, 'libchat', file('ChatUiSample/libchat/'))
 include ':libchat'
+
+settings.createProjectDescriptor(settings.rootProject, 'libchat', file('ChatUiSample/libchat/'))
+include ':libdownload'
