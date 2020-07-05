@@ -4,5 +4,5 @@ include ':app'
 settings.createProjectDescriptor(settings.rootProject, 'libchat', file('ChatUiSample/libchat/'))
 include ':libchat'
 
-settings.createProjectDescriptor(settings.rootProject, 'libchat', file('ImageDownloaderSample/library/'))
-include ':libdownload'
+settings.createProjectDescriptor(settings.rootProject, 'libdownloader', file('ImageDownloaderSample/library/'))
+include ':libdownloader'

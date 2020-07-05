@@ -27,15 +27,21 @@
 - <b>git submodule init</b>
 - <b>git submodule update</b>
 
-7) <i>Get repository with submodules</i>:
+7) <i>Remove submodule from repository</i>:
+- <b>git config -f .gitmodules --remove-section submodule.SUBMODULE_NAME</b>
+- <b>git add .gitmodules</b>
+- <b>git submodule deinit -f SUBMODULE_NAME</b>
+- <b>git rm --cached SUBMODULE_PATH</b>
+- <b>git config -f .git/config --remove-section "submodule.SUBMODULE_NAME"</b>
+- <b>rm -rf .git/modules/SUBMODULE_PATH</b>
+- <b>git commit -m "Removed submodule"</b>
+- <b>rm -rf PATH_TO_SUBMODULE</b>
+
+8) <i>Get repository with submodules</i>:
 - <b>git clone --recursive 'https://github.com/user/repository'</b>
 
-8) <i>Remove submodule from repository</i>:
-- <b>git config -f .gitmodules --remove-section "submodule.submodule_name"</b>
-- <b>git add .gitmodules</b>
-- <b>git submodule deinit -f "submodule_name"</b>
-- <b>git rm --cached "path_to_submodule"</b>
-- <b>git config -f .git/config --remove-section "submodule.submodule_name"</b>
-- <b>rm -rf .git/modules/path_to_submodule</b>
-- <b>git commit -m "Removed submodule"</b>
-- <b>rm -rf path_to_submodule</b>
+9) <i>Update submodule</i>:
+- <b>git submodule update --remote SUBMODULE_NAME</b>
+
+10) <i>Add branch for submodule</i>:
+- <b>git config -f .gitmodules submodule.SUBMODULE_NAME.branch BRANCH_NAME</b>
