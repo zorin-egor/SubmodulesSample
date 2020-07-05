@@ -6,19 +6,22 @@
 - <b>git --help</b>
 - <b>git --help command</b>
 
-2) <i>For save user credentials</i>:
+2) <i>Save user credentials</i>:
 - <b>git config credential.helper store</b>
 - use auth command
 
-3) <i>For check remote</i>:
+3) <i>Check remote</i>:
 - <b>git remote -v</b>
 - <b>git remote show 'remote'</b>
 
-4) <i>For check current status</i>:
+4) <i>Check current status</i>:
 - <b>git status</b>
 
-5) <i>For check current branch</i>:
+5) <i>Check current branch</i>:
 - <b>git branch</b>
+
+6) <i>Manage branches</i>:
+- <b>git checkout BRANCH_NAME</b> - 
 
 ## Submodules
 
