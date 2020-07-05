@@ -2,7 +2,7 @@
 
 1) <i>Help command</i>:
 - <b>git --help</b>
-- <b>git --help <command></b>
+- <b>git --help command</b>
 
 2) <i>For save user credentials</i>:
 - <b>git config credential.helper store</b>
